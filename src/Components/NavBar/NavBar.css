@@ -1,0 +1,49 @@
+nav{
+    display: flex;
+    background-image: linear-gradient(to right,rgba(4,9,30,0.95),rgba(4,9,30,0.66));
+    padding: 0% 6%;
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  nav img{
+    width: 100px;
+  height:100px;
+  display: inline;
+  vertical-align: top;
+  
+  }
+  
+  nav .nav-links{
+    flex: 1;
+    text-align: right;
+    
+  }
+  
+  nav .nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+  }
+  
+  .link-style{
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav .nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.2s;
+  }
+  
+  nav .nav-links ul li:hover::after{
+    width: 100%;
+  }

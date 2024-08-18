@@ -1,0 +1,51 @@
+.boarding-pass-page{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4, 9, 30, 0.5)),url(../Pages/bg-images/boarding-pass-bg.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.boarding-pass{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 60%;
+    background: rgba(4,9,30,0.7);
+    padding-bottom: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.835);
+    
+}
+
+.flight-info {
+  flex: 1;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-size: large;
+  color: white;
+  }
+
+  .flight-details{
+    list-style: none;
+    display: inline-block;
+    padding: 0% 20%;
+    position: relative;
+  }
+
+  .passenger-info {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+  }
+
+.bp-header{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+    color: rgba(177, 177, 177, 0.885);
+}

@@ -1,0 +1,98 @@
+.bk-page{
+    min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../Pages/bg-images/levi-guzman-1077831-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  justify-content: space-between;
+}
+
+.bk-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 60%;
+    background: rgba(4,9,30,0.7);
+    padding-bottom: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.835);
+}
+
+
+
+.bk-heading{
+  width: 100%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-size: 3em;
+  font-family: 'Dancing Script', cursive;
+  color: #fff;
+  text-align: center;
+  position: ab;
+}
+
+.bk-inputs{
+    margin-top: 55px ;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.bk-inputs label{
+    width: 40%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.bk-input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 40%;
+    height: 80;
+    background: #eaeaeae4;
+    border-radius: 6px;
+}
+
+.bk-input input{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+}
+
+.bk-sub-cont{
+    display: flex;
+    margin: 10px auto;
+}
+
+.bk-sub{
+    display: flex;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 80px;
+    color: white;
+    background: #4c00b4;
+    border-radius: 50px;
+    font-weight: 900;
+    cursor: pointer;
+    
+}
+
+.from-to{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.from-to .bk-input{
+    display: inline-block;
+    padding: 8px 12px;
+    
+}
