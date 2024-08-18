@@ -1,7 +1,8 @@
 ## TLDR
-node flight.js -> run once to create DB of flight data
-npm start -> starts frontend
-node app.js -> starts backend
+
+node flight.js -> run once to create DB of flight data.\
+npm start -> starts frontend.\
+node app.js -> starts backend.
 
 
 # Getting Started with Create React App
