@@ -1,3 +1,9 @@
+## TLDR
+node flight.js -> run once to create DB of flight data
+npm start -> starts frontend
+node app.js -> starts backend
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
