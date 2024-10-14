@@ -171,3 +171,11 @@ app.listen(8000,()=>{
     console.log("port connected");
 })
 
+function genSeatNo() {
+  const rowNumber = Math.floor(Math.random() * 20) + 1;  // Seat row
+  const seatLetter = String.fromCharCode(65 + Math.floor(Math.random() * 6));  // Seat letter A-F
+  const seatNumber = `${rowNumber}${seatLetter}`;  // Full seat number
+
+  return seatNumber;
+}
+
